@@ -1,0 +1,106 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+    background-color: #00539f;
+    background-image: url('../images/background.jpeg'); /* 设置背景图片 */
+    background-size: cover; /* 背景图片按比例拉伸以覆盖整个页面 */
+    background-repeat: no-repeat; /* 防止背景图片重复 */
+    background-attachment: fixed; /* 背景图片固定，不随页面滚动 */
+    background-position: center; /* 背景图片居中 */
+  }
+body {
+    width: max-content;
+    margin: 0 75px;
+    background-color: rgba(255, 255, 255, 0); 
+    padding: 0 20px 20px 20px;
+  }
+/*对profile-card中内容的定义*/  
+#profile-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 50px auto;
+  text-align: center;
+  width: 1000px;
+}
+#profile-card img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+#profile-card h1 {
+  font-size: 75px;
+  text-align: center;
+  margin: 10px 0;
+  color: #00539f;
+  text-shadow: 1px 1px 1px black;
+}
+#profile-card p {
+  font-size: 20px;
+  color: #000000;
+  margin: 5px 0;
+}
+#profile-card a {
+  font-size: 25px;
+  color: #00539f;
+  margin: 5px 0;
+  display: block;
+} 
+#profile-card a:hover {
+  font-size: 25px;
+  color: aqua;
+  margin: 5px 0;
+  display: block;
+} 
+/*对self-intro中内容的定义*/
+#self-intro {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 50px auto;
+  text-align: left;
+  width: 1280px;
+}
+#self-intro h1{
+  font-size: 50px;
+  text-align: left;
+  margin: 10px 0;
+  color: #00539f;
+  text-shadow: 1px 1px 1px black;
+}
+#self-intro p{
+  font-size: 25px;
+}
+/*对News中内容的定义*/
+#news {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 50px auto;
+  text-align: left;
+  width: 1280px;
+}
+#news h1{
+  font-size: 50px;
+  text-align: left;
+  margin: 10px 0;
+  color: #00539f;
+  text-shadow: 1px 1px 1px black;
+}
+#news p{
+  font-size: 25px;
+}
+#news li{
+  font-size: 25px;
+  line-height: 2;
+}
+/*对warning的定义*/
+#warning{
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
